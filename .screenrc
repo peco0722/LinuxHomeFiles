@@ -1,0 +1,16 @@
+# .screenrc
+
+startup_message off
+vbell off
+
+# 起動キーの変更
+escape ^O^O
+
+# japanese
+pastefont on
+
+# bind
+bind t title
+
+# head status
+hardstatus alwayslastline "%{=b}%{bw} %{.w}%{.c}%Y-%m-%d %{.y}%0c %{-b}%{ck}%-Lw%{+b}%{gw} %n*%f %t%? (%u)%? %{-}%{-b}%+Lw %{=b}%{bw} %= %{.w}%H%{.c}[%l] "
